@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employees</title>
+</head>
+<body>
+    <h1>New Employees</h1>
+    <form id="addEmployee">
+        <div class="items">
+            <p>Enter Name</p>
+            <input type="text" name="name">
+        </div>
+        <div class="items">
+            <p>Enter Profession</p>
+            <input type="text" name="profession">
+        </div>
+        <div class="items">
+            <p>Enter Age</p>
+            <input type="text" name="age">
+        </div>
+        <button type="button" id="add-user" onclick="addUser()">Add User</button>
+    </form>
+    <div id="showMsg"></div>
+    <p id="permanent">Added Employees</p>
+    <div id="container">
+        <p id="initialMsg">You have 0 Employees.</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

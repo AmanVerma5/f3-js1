@@ -1,0 +1,77 @@
+body{
+    width:80%;
+    margin:0 auto;
+    background-color: black;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+#addEmployee{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input{
+    background-color: black;
+    border:1px solid white;
+    width:100%;
+    line-height: 40px;
+    color:grey;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.items{
+    
+    width:30%;
+}
+.items p{
+    font-size: 18px;
+}
+
+#add-user{
+    margin-top:50px;
+    width:20%;
+    height:50px;
+    font-size: larger;
+}
+#permanent{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+#initial-employee{
+    color:grey;
+    font-size: 18px;
+}
+.new-employee{
+    display: flex;
+    border:1px solid white;
+    width: fit-content;
+    border-radius: 10px;
+
+}
+.name, .profession{
+    padding:0 20px;
+}
+.age{
+    margin-right:10px;
+}
+.id{
+    margin-left:10px;
+}
+.add-employee{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.delete-user{
+    margin-left: 20px;
+    border-radius: 25px;
+    width:150px;
+    height:40px;
+}
+#showMsg{
+    margin-top: 40px;
+    font-size: 30px;
+}
